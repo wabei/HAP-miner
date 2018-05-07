@@ -21,7 +21,8 @@ Wabei，wabei中文瓦贝，意喻源于朴实的泥土，服务百姓。
 3）mv geth /usr/local/bin  
 4)chmod +x /usr/local/bin/geth      ##授给geth授权
 5)geth console      ##登录geth控制台
-6)命令行输入：personal.newAccount("123456") ##注意123456是您的密码一定要牢记，可以自定义密码。
+6)命令行输入：personal.newAccount("123456") ##注意123456是您的密码一定要牢记，可以自定义
+密码。
 7）命令行输入：miner.start()，启动挖矿。
 8）支持使用PC和云挖矿，使用服务器时,SSH远程登录完成以上7步，exit退出,然后使用云服务器控制台登录，
 执行：geth --mine开始挖矿，关闭浏览器，可使系统保持持续挖矿运行。
