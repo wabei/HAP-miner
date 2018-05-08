@@ -1,4 +1,4 @@
-# miner attention
+# Miner notice
 Wabei -Dapp
 一、linux centos系统挖矿，挖矿操作如下：
 1）下载本项目geth客户端,下载地址：https://github.com/wabei/miner.git
