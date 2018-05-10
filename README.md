@@ -4,6 +4,14 @@
 
 #### linux 系统挖矿指南
 
+工具下载说明
+
+|工具包|系统版本|下载地址|
+|-|-|-|
+|geth-linux-amd64|linux |[下载地址](https://github.com/wabei/miner/blob/master/geth-darwin-10.6-amd64)|
+|geth-linux-arm64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-arm64)|
+|geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/blob/master/geth-windows-4.0-amd64.exe)|
+
   1. 准备工作
 	
   - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录
