@@ -1,16 +1,16 @@
 
 
-## Wabei Miner 挖矿指南
+## Wabei -Dapp 
+
+#### 工具下载说明
+
+> |工具包|系统版本|下载地址|
+> |-|-|-|
+> |geth-darwin-10.6-amd64|Mac|[下载地址](https://github.com/wabei/miner/blob/master/geth-darwin-10.6-amd64)|
+> |geth-linux-arm64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-arm64)|
+> |geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/blob/master/geth-windows-4.0-amd64.exe)|
 
 #### linux 系统挖矿指南
-
-工具下载说明
-
-|工具包|系统版本|下载地址|
-|-|-|-|
-|geth-linux-amd64|linux |[下载地址](https://github.com/wabei/miner/blob/master/geth-darwin-10.6-amd64)|
-|geth-linux-arm64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-arm64)|
-|geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/blob/master/geth-windows-4.0-amd64.exe)|
 
   1. 准备工作
 	
@@ -19,10 +19,10 @@
 ````
   
   # 打开终端输入，复制geth 到bin目录
-  mv geth /usr/local/bin  
+    mv geth /usr/local/bin  
 
   # 授给geth授权
-  chmod +x /usr/local/bin/geth
+    chmod +x /usr/local/bin/geth
 ````
   
   3. 启动挖矿
@@ -43,13 +43,34 @@
   
 ````
   #云端直接：（建议使用nohup后台运行方式，防止终端关闭后geth进程终止）
-  nohup geth –-mine --etherBase "生成的账户地址"  & 
-
+  
+    nohup geth –-mine --etherBase "生成的账户地址"  & 
 ````
 
 #### Window 系统挖矿指南
+ 
+ 启动挖矿
+ 
+````
+  # 下载
+    下载对应的操作系统版本，到D:/** 目录
 
+  # 启动控制台
+    win+R 启动cmd 窗口
 
+  # 进入下载的程序目录
+    cd D:/**
+
+  # 进入geth console环境
+    执行geth console 
+
+  # 生成挖矿账户,注意保存账户地址，密码和对应的keystore
+    personal.newAccount("你的密码")
+
+  # 启动挖矿
+    miner.start()
+````
+  
 #### Mac 系统挖矿指南
 
 #### 其他系统，理论上支持，但不建议
