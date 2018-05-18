@@ -9,7 +9,7 @@
 > |geth-darwin-10.6-amd64|Mac|[下载地址](https://github.com/wabei/miner/blob/master/geth-darwin-10.6-amd64)|
 > |geth-linux-arm64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-arm64)|
 > |geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/blob/master/geth-windows-4.0-amd64.exe)|
-
+> |下载以上对应版本并修改文件名为：geth(后缀不变）|
 #### linux 系统挖矿指南
 
   1. 准备工作
@@ -74,3 +74,5 @@
 #### Mac 系统挖矿指南
 
 #### 其他系统，理论上支持，但不建议
+#### 常用命令：查余额：eth.getBalance(eth.coinbase)  节点连接查询：admin.peers   
+
