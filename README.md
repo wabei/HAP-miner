@@ -39,12 +39,13 @@
       miner.start() 
 ````
     
-  - 服务器后台启动
+  - 服务器后台启动(需已有矿工账户才能启动后台）
   
 ````
-  #云端直接：（建议使用nohup后台运行方式，防止终端关闭后geth进程终止）
-  
-    nohup geth –-mine --etherBase "生成的账户地址"  & 
+  #后台运行方式(防止终端关闭后geth进程终止):
+  sudo -s
+  chmod +x start.sh
+  ./start.sh
 ````
 
 #### Window 系统挖矿指南
