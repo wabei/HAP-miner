@@ -31,7 +31,7 @@
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-amd64-1.8.7.tar.gz",
                             "type": "tar",
                             "md5": "53d636f8534ce198fd5815b5c295109c",
-                            "bin": "geth-darwin-amd64"
+                            "bin": "geth-darwin-10.6-amd64"
                         },
                         "bin": "geth",
                         "commands": {
@@ -53,7 +53,7 @@
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-windows-amd64-1.8.7.zip",
                             "type": "zip",
                             "md5": "21982c18214af4dad6eaf391058f1795",
-                            "bin": "geth-windows-amd64.exe"
+                            "bin": "geth-windows-4.0-amd64.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
