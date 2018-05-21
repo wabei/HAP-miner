@@ -6,7 +6,7 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.8.7.tar.gz",
+                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-linux-amd64-1.8.7.tar.gz",
                             "type": "tar",
                             "md5": "9393981df69c60edd7ab7a2d1e09a464",
                             "bin": "geth-linux-amd64"
@@ -28,7 +28,7 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.8.7.tar.gz",
+                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-amd64-1.8.7.tar.gz",
                             "type": "tar",
                             "md5": "53d636f8534ce198fd5815b5c295109c",
                             "bin": "geth-darwin-amd64"
@@ -50,7 +50,7 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.8.7.zip",
+                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-windows-amd64-1.8.7.zip",
                             "type": "zip",
                             "md5": "21982c18214af4dad6eaf391058f1795",
                             "bin": "geth-windows-amd64.exe"
