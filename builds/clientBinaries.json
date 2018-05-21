@@ -11,7 +11,7 @@
                             "md5": "9393981df69c60edd7ab7a2d1e09a464",
                             "bin": "geth-linux-amd64"
                         },
-                        "bin": "geth",
+                        "bin": "geth-linux-amd64",
                         "commands": {
                             "sanity": {
                                 "args": [
@@ -33,7 +33,7 @@
                             "md5": "53d636f8534ce198fd5815b5c295109c",
                             "bin": "geth-darwin-10.6-amd64"
                         },
-                        "bin": "geth",
+                        "bin": "geth-darwin-10.6-amd64",
                         "commands": {
                             "sanity": {
                                 "args": [
@@ -55,7 +55,7 @@
                             "md5": "21982c18214af4dad6eaf391058f1795",
                             "bin": "geth-windows-4.0-amd64.exe"
                         },
-                        "bin": "geth.exe",
+                        "bin": "geth-windows-4.0-amd64.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
