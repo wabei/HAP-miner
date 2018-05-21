@@ -7,9 +7,10 @@
 > |工具包|系统版本|下载地址|
 > |-|-|-|
 > |geth-darwin-10.6-amd64|Mac|[下载地址](https://github.com/wabei/miner/blob/master/geth-darwin-10.6-amd64)|
-> |geth-linux-arm64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-arm64)|
+> |geth-linux-amd64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-amd64)|
 > |geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/blob/master/geth-windows-4.0-amd64.exe)|
-
+> |geth-linux-arm64|linux|[下载地址](https://github.com/wabei/miner/blob/master/geth-linux-arm64)|
+> |下载以上对应版本并修改文件名为：geth(后缀不变）|
 #### linux 系统挖矿指南
 
   1. 准备工作
@@ -39,12 +40,13 @@
       miner.start() 
 ````
     
-  - 服务器后台启动
+  - 服务器后台启动(需已有矿工账户才能启动后台运行）
   
 ````
-  #云端直接：（建议使用nohup后台运行方式，防止终端关闭后geth进程终止）
-  
-    nohup geth –-mine --etherBase "生成的账户地址"  & 
+  #后台运行方式(防止终端关闭后geth进程终止):
+  sudo -s
+  chmod +x start.sh
+  ./start.sh
 ````
 
 #### Window 系统挖矿指南
@@ -74,3 +76,5 @@
 #### Mac 系统挖矿指南
 
 #### 其他系统，理论上支持，但不建议
+#### 常用命令：查余额：eth.getBalance(eth.coinbase)  节点连接查询：admin.peers   
+
