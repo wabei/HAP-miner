@@ -8,7 +8,7 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-linux-amd64-1.8.7.tar.gz",
                             "type": "tar",
-                            "md5": "9393981df69c60edd7ab7a2d1e09a464",
+                            "md5": "cc247e0540eb3240494b1521e25b3c9b",
                             "bin": "geth-linux-amd64"
                         },
                         "bin": "geth-linux-amd64",
@@ -30,7 +30,7 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-amd64-1.8.7.tar.gz",
                             "type": "tar",
-                            "md5": "53d636f8534ce198fd5815b5c295109c",
+                            "md5": "3a0136320fb2fdd9c01a112cf1e32e38",
                             "bin": "geth-darwin-10.6-amd64"
                         },
                         "bin": "geth-darwin-10.6-amd64",
@@ -52,7 +52,7 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-windows-amd64-1.8.7.zip",
                             "type": "zip",
-                            "md5": "21982c18214af4dad6eaf391058f1795",
+                            "md5": "f2c040df66b9e02c5d38577245584a7c",
                             "bin": "geth-windows-4.0-amd64.exe"
                         },
                         "bin": "geth-windows-4.0-amd64.exe",
