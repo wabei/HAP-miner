@@ -30,7 +30,7 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "72935431d45d53b66a4556cf5225fd06",
+                            "md5": "e81086b50fafbc2fd7ff59ee65245610",
                             "bin": "geth-darwin-10.6-amd64/Geth"
                         },
                         "bin": "Geth",
