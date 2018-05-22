@@ -30,10 +30,10 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-amd64-1.8.7.tar.gz",
                             "type": "tar",
-                            "md5": "3a0136320fb2fdd9c01a112cf1e32e38",
-                            "bin": "geth-darwin-10.6-amd64"
+                            "md5": "72935431d45d53b66a4556cf5225fd06",
+                            "bin": "geth-darwin-10.6-amd64/Geth"
                         },
-                        "bin": "geth-darwin-10.6-amd64",
+                        "bin": "Geth",
                         "commands": {
                             "sanity": {
                                 "args": [
