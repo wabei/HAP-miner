@@ -30,7 +30,7 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "cbeb0becc5b286461cece7b30361af2a",
+                            "md5": "3de6db9842c3efae5655fe526a2cbc85",
                             "bin": "geth-darwin-10.6-amd64/wabei-geth"
                         },
                         "bin": "wabei-geth",
@@ -53,16 +53,16 @@
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-windows-4.0-amd64.zip",
                             "type": "zip",
                             "md5": "680c3981264bdfdf2c140626bba96e28",
-                            "bin": "geth-windows-4.0-amd64/wabei-geth"
+                            "bin": "geth-windows-4.0-amd64/wabei-geth.exe"
                         },
-                        "bin": "wabei-geth",
+                        "bin": "wabei-geth.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "wabei-geth.exe",
+                                    "Geth",
                                     "1.8.7-9"
                                 ]
                             }
