@@ -19,7 +19,7 @@
                                 ],
                                 "output": [
                                     "Geth",
-                                    "1.8"
+                                    "1.8.7-9"
                                 ]
                             }
                         }
@@ -30,10 +30,10 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "e81086b50fafbc2fd7ff59ee65245610",
-                            "bin": "geth-darwin-10.6-amd64/Geth"
+                            "md5": "a960ac2f2f732d9562b2f5acd4d1f30a",
+                            "bin": "geth-darwin-10.6-amd64/wGeth"
                         },
-                        "bin": "Geth",
+                        "bin": "wGeth",
                         "commands": {
                             "sanity": {
                                 "args": [
@@ -41,7 +41,7 @@
                                 ],
                                 "output": [
                                     "Geth",
-                                    "1.8"
+                                    "1.8.7-9"
                                 ]
                             }
                         }
