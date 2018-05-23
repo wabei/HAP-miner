@@ -6,12 +6,12 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-linux-amd64-1.8.7.tar.gz",
+                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "cc247e0540eb3240494b1521e25b3c9b",
-                            "bin": "geth-linux-amd64"
+                            "md5": "3de6db9842c3efae5655fe526a2cbc85",
+                            "bin": "geth-linux-amd64/wabei-geth"
                         },
-                        "bin": "geth-linux-amd64",
+                        "bin": "wabei-geth",
                         "commands": {
                             "sanity": {
                                 "args": [
@@ -30,10 +30,10 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "a960ac2f2f732d9562b2f5acd4d1f30a",
-                            "bin": "geth-darwin-10.6-amd64/wGeth"
+                            "md5": "cbeb0becc5b286461cece7b30361af2a",
+                            "bin": "geth-darwin-10.6-amd64/wabei-geth"
                         },
-                        "bin": "wGeth",
+                        "bin": "wabei-geth",
                         "commands": {
                             "sanity": {
                                 "args": [
@@ -50,20 +50,20 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-windows-amd64-1.8.7.zip",
+                            "url": "https://github.com/wabei/miner/raw/master/builds/geth-windows-4.0-amd64.zip",
                             "type": "zip",
-                            "md5": "f2c040df66b9e02c5d38577245584a7c",
-                            "bin": "geth-windows-4.0-amd64.exe"
+                            "md5": "680c3981264bdfdf2c140626bba96e28",
+                            "bin": "geth-windows-4.0-amd64/wabei-geth"
                         },
-                        "bin": "geth-windows-4.0-amd64.exe",
+                        "bin": "wabei-geth",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.8.7"
+                                    "wabei-geth.exe",
+                                    "1.8.7-9"
                                 ]
                             }
                         }
