@@ -8,7 +8,7 @@
                         "download": {
                             "url": "https://github.com/wabei/miner/raw/master/builds/geth-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "3de6db9842c3efae5655fe526a2cbc85",
+                            "md5": "cbeb0becc5b286461cece7b30361af2a",
                             "bin": "geth-linux-amd64/wabei-geth"
                         },
                         "bin": "wabei-geth",
