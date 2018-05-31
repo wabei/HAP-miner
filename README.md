@@ -74,7 +74,8 @@
 ````
   
 #### Mac 系统挖矿指南
-
 #### 其他系统，理论上支持，但不建议
-#### 常用命令：查余额：eth.getBalance(eth.coinbase)  节点连接查询：admin.peers   
+#### 常用命令：
+     //查余额：eth.getBalance(eth.coinbase)  
+     //节点连接查询：admin.peers   
 
