@@ -76,7 +76,7 @@
 #### Mac 系统挖矿指南
 #### 其他系统，理论上支持，但不建议
 #### 常用命令：
-     # geth attach 与 geth console 是交互式控制台，只能选用一个,于控制台下执行下述命令：
+     #  geth console与geth attach都是交互式控制台，只能选用一个,于控制台下执行下述命令：
      # 生成账户：personal.newAccount("1345666")
      # 启动挖矿：miner.start()
      # 查挖矿账户余额：eth.getBalance(eth.coinbase)
