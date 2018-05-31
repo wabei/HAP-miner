@@ -76,6 +76,11 @@
 #### Mac 系统挖矿指南
 #### 其他系统，理论上支持，但不建议
 #### 常用命令：
-     //查余额：eth.getBalance(eth.coinbase)  
-     //节点连接查询：admin.peers   
+     # geth attach 与 geth console 是交互式控制台，只能选用一个,于控制台下执行下述命令：
+     # 生成账户：personal.newAccount("1345666")
+     # 启动挖矿：miner.start()
+     # 查挖矿账户余额：eth.getBalance(eth.coinbase)
+     # 查询特定账户余额：eth.getBalance("0x60c8abe58c9dbc52a4ee9f......)
+     # 节点连接查询：admin.peers 
+     # 矿工转账：geth.sendTransaction({from: eth.coinbase, to: '0x02b7344004c45465796f779b7b95d7912c2ef572', value: 100000000})
 
