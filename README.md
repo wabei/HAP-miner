@@ -82,5 +82,6 @@
      # 查挖矿账户余额：eth.getBalance(eth.coinbase)
      # 查询特定账户余额：eth.getBalance("0x60c8abe58c9dbc52a4ee9f......“) 替换“”中的账户为要查询的， 
      # 节点连接查询：admin.peers 
-     # 矿工转账：geth.sendTransaction({from: eth.coinbase, to: '0x02b7344004c4.......', value: 100000000}) 
+     # 转账：geth.sendTransaction({from: '0x544556324504c4.......', to: '0x02b7344004c4.......', value: 100000000}) 
+     
 
