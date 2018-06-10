@@ -75,10 +75,10 @@
 #### 常用命令：
      # geth console与geth attach都是交互式控制台，只能选用一个,于控制台下执行下述命令：
      # 生成账户：personal.newAccount("1345666")  替换“”中的密码为自己的
-     # 启动挖矿：miner.start()
+     # 启动挖矿：miner.start()  //适用于控制台下启动挖坑，最好关闭控制台，用geth --mine启动后台挖矿。
      # 查挖矿账户余额：eth.getBalance(eth.coinbase)
      # 查询特定账户余额：eth.getBalance("0x60c8abe58c9dbc52a4ee9f......“) 替换“”中的账户为要查询的， 
      # 节点连接查询：admin.peers 
-     # 转账：geth.sendTransaction({from: '0x544556324504c4.......', to: '0x02b7344004c4.......', value: 100000000}) 
+     # 命令行转账：geth.sendTransaction({from: '0x544556324504c4.......', to: '0x02b7344004c4.......', value: 100000000}) 
      
 
