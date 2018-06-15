@@ -52,22 +52,23 @@
  
 ````
   # 下载
-    下载对应的操作系统版本，到D:/** 目录
+    下载对应的操作系统版本，到D:/wabei目录
 
   # 启动控制台
     win+R 启动cmd 窗口
 
-  # 进入下载的程序目录
-    cd D:/**
+  # 进入D盘下的wabei目录
+    D:        //回车进入D盘
+    cd wabei  //进入wabei目录
 
-  # 进入geth console环境
-    执行geth console 
+  # 进入geth console控制台
+    geth console 
 
   # 生成挖矿账户,注意保存账户地址，密码和对应的keystore
     personal.newAccount("你的密码")
 
   # 启动挖矿
-    miner.start()
+    miner.start()    //也可以退出，使用geth --mine启动后台挖矿
 ````
   
 #### Mac 系统挖矿指南
