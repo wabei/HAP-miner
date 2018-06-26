@@ -86,6 +86,6 @@
 #### 在线钱包配套挖矿使用：
      #wallet.bitwa.org:3000 //打开这个网站
      #pkill geth  //关闭现有挖矿进程：
-     #geth --rpc --ws --wsorigins "http://localhost:3000" --mine //终端，重启挖矿，刷新网站后可看到余额、块高，同步完成后可转账操作。
+     #geth --rpc --ws --wsorigins "http://localhost:3000" --mine //终端执行这条命令，刷新网站后可看到余额、块高，同步完成后可转账操作。
      
 
