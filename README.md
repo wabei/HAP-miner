@@ -87,5 +87,5 @@
      #wallet.bitwa.org //打开这个网站
      #pkill geth  //关闭现有挖矿进程：
      #geth --rpc --ws --wsorigins "wallet.bitwa.org" --mine //终端执行这条命令（替代geth console)、块高，同步完成后可转账操作\自动挖矿。
-     
+     #geth --rpc --ws --wsorigins "wallet.bitwa.org" --mine --unlock <your account> //这个命令比上一条增加了解锁账户，主要是方便转账。
 
