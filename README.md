@@ -18,11 +18,12 @@
   - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录
 
 ````
+  # 打开终端sudo -s 进入root根目录
   
-  # 打开终端输入，复制geth 到bin目录
+  # 在终端输入复制geth 到bin目录：
     mv geth /usr/local/bin  
 
-  # 授给geth授权
+  # 授给geth授权：
     chmod +x /usr/local/bin/geth
 ````
   
@@ -30,7 +31,7 @@
   
   - 本地方式直接启动挖矿
   ````
-    #打开终端，sudo -s 回车输入密码，进入root目录，输入
+    #另开终端，输入
       geth console  //回车，进入了控制台
 
     # 控制台下输入：
@@ -68,7 +69,7 @@
     personal.newAccount("你的密码")
 
   # 启动挖矿
-    miner.start()    //也可以退出，使用geth --mine启动后台挖矿
+    miner.start()    //也可以退出，使用 geth --mine挖矿
 ````
   
 #### Mac 系统挖矿指南
@@ -87,5 +88,5 @@
      #wallet.bitwa.org //打开这个网站
      #pkill geth  //关闭现有挖矿进程：
      #geth --rpc --ws --wsorigins "wallet.bitwa.org" --mine //终端执行这条命令（替代geth console)、块高，同步完成后可转账操作\自动挖矿。
-     #geth --rpc --ws --wsorigins "wallet.bitwa.org" --mine --unlock <your account> //这个命令比上一条增加了解锁账户，主要是方便转账。
+     #personal.unlockAccount("你的账户")  //在线钱包连接到节点并同步完成后，可使用这个命令解锁你的账户，然后利用在线钱包转账。
 
