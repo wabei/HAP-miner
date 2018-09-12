@@ -15,8 +15,7 @@
 
   1. 准备工作
 	
-  - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录
-
+  - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录，更名为geth
 ````
   # 打开终端sudo -s 进入root根目录
   
@@ -25,35 +24,18 @@
 
   # 授给geth授权：
     chmod +x /usr/local/bin/geth
+  # 下载start.sh 并复制到/home/目录,修改start.sh中的矿工账户为你的个人账户
+    打开终端 sudo -s 回车授权
+    chmod +x start.sh
+    ./starth.sh 启动后台挖矿，关闭终端不受影响。    
 ````
-  
-  2. 启动挖矿
-  
-  - 本地方式直接启动挖矿
-  ````
-    #另开终端，输入
-      geth console  //回车，进入了控制台
-
-    # 控制台下输入：
-      personal.newAccount("你的密码") //回车生成你的矿工账户。
-
-    # 启动挖矿：
-    exit 回车，退出控制台后，输入 geth --mine 启动挖矿，此时关闭窗口也可以，geth将进入后台运行挖矿
-````
-  
-````
-  #多机一个账户（root目录下pkill geth 然后：
-  chmod +x start.sh  //修改start.sh文件中的账户为你的统一账户
-  ./start.sh  //启动挖矿，关闭窗口不影响运行
-````
-
 #### Window 系统CMD命令行挖矿指南
  
  启动挖矿
  
 ````
   # 下载
-    下载对应的操作系统版本，到D:/wabei目录
+    下载对应的操作系统版本，并改名为geth，新建d:/wabei目录，复制get到d:/wabei目录
 
   # 启动控制台
     win+R 启动cmd 窗口
@@ -69,10 +51,9 @@
     personal.newAccount("你的密码")
 
   # 启动挖矿
-    miner.start()    //也可以退出，使用 geth --mine挖矿
-````
-  
-#### Mac 系统挖矿指南
+    miner.start()  
+```` 
+#### Mac 系统挖矿指南（同linux)
 #### 其他系统，理论上支持，但不建议
 #### 常用命令：
      # geth console与geth attach都是交互式控制台，只能选用一个,于控制台下执行下述命令：
