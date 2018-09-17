@@ -6,9 +6,9 @@
 
 > |工具包|系统版本|下载地址|
 > |-|-|-|
-> |geth-darwin-10.6-amd64|Mac|[下载地址](https://github.com/wabei/miner/raw/master/geth-darwin-10.6-amd64/wabei-geth)|
-> |geth-linux-amd64|linux|[下载地址](https://github.com/wabei/miner/raw/master/geth-linux-amd64/wabei-geth.zip)|
-> |geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/raw/master/geth-windows-4.0-amd64.exe/wabei-geth)|
+> |geth-darwin-10.6-amd64|Mac|[下载地址](https://github.com/wabei/miner/raw/master/geth-darwin-10.6-amd64/geth)|
+> |geth-linux-amd64|linux|[下载地址](https://github.com/wabei/miner/raw/master/geth-linux-amd64/geth.zip)|
+> |geth-windows-4.0-amd64.exe|winodws|[下载地址](https://github.com/wabei/miner/raw/master/geth-windows-4.0-amd64.exe/geth)|
 > |下载以上对应版本并修改文件名为：geth(后缀不变）|
 #### linux 系统终端命令行挖矿指南
 
