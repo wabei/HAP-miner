@@ -13,7 +13,7 @@
 
   1. 准备工作
 	
-  - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录，更名为geth
+  - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录解压后更名为geth
 ````
   # 打开终端sudo -s 进入root根目录
   
