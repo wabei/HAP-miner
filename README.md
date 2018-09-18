@@ -33,7 +33,7 @@
  
 ````
   # 下载
-    下载对应的操作系统版本，并改名为geth，新建d:/wabei目录，复制get到d:/wabei目录
+    下载对应的操作系统版本，并改名为geth.exe，新建d:/wabei目录，复制get到d:/wabei目录
 
   # 启动控制台
     win+R 启动cmd 窗口
