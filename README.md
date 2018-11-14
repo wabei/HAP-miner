@@ -13,7 +13,7 @@
 
   1. 准备工作
 	
-  - linux 下载 [geth-linux-amd64](https://github.com/wabei/miner/geth-linux-amd64) 到本地目录解压后更名为geth
+  - linux 下载 geth 到本地目录
 ````
   # 打开终端sudo -s 进入root根目录
   
@@ -38,9 +38,9 @@
   # 启动控制台
     win+R 启动cmd 窗口
 
-  # 进入D盘下的wabei目录
+  # 进入D盘下的hap目录
     D:        //在CMD输入D：回车进入D盘
-    cd wabei  //进入wabei目录
+    cd hap  //进入wabei目录
 
   # 进入geth console控制台
     geth console 
