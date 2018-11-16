@@ -12,7 +12,7 @@
 
   1. 准备工作
 	
-  - linux 下载 geth 到本地目录
+  - linux 下载 hap 到本地目录
 ````
   # 打开终端sudo -s 进入root根目录
   
