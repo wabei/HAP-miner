@@ -6,8 +6,8 @@
 
 > |工具包|系统版本|下载地址|
 > |-|-|-|
-> |hap-linux-amd64|linux|[下载地址](https://github.com/wabei/Hap-miner/raw/master/hap-linux-amd64/hap.zip)|
-> |hap-windows-4.0-amd64|winodws|[下载地址](https://github.com/wabei/miner/raw/master/hap-windows-4.0-amd64/hap.exe)|
+> |hap-linux-amd64|linux|[下载地址](https://github.com/wabei/HAP-miner/raw/master/hap-linux-amd64/hap.zip)|
+> |hap-windows-4.0-amd64|winodws|[下载地址](https://github.com/wabei/HAP-miner/raw/master/hap-windows-4.0-amd64.exe/hap.exe)|
 #### linux 系统终端命令行挖矿指南
 
   1. 准备工作
