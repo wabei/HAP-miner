@@ -55,7 +55,7 @@
 #### 常用命令：
      # hap console与hap attach都是交互式控制台，只能选用一个,于控制台下执行下述命令：
      # 生成账户：personal.newAccount("1345666")  替换“”中的密码为自己的
-     # 启动挖矿：miner.start()  //适用于控制台下启动挖矿，最好关闭控制台，用geth --mine启动后台挖矿。
+     # 启动挖矿：miner.start()  //适用于控制台下启动挖矿，最好关闭控制台，用hap --mine启动后台挖矿。
      # 查挖矿账户余额：eth.getBalance(eth.coinbase)
      # 查询特定账户余额：eth.getBalance("0x60c8abe58c9dbc52a4ee9f......“) 替换“”中的账户为要查询的， 
      # 节点连接查询：admin.peers 
