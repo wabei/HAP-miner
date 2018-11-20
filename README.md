@@ -32,14 +32,14 @@
  
 ````
   # 下载
-    下载对应的操作系统版本，并改名为hap.exe，新建d:/wabei目录，复制hap到d:/wabei目录
+    下载对应的操作系统版本，并改名为hap.exe，新建d:/hap目录，复制hap到d:/hap目录
 
   # 启动控制台
     win+R 启动cmd 窗口
 
   # 进入D盘下的hap目录
     D:        //在CMD输入D：回车进入D盘
-    cd wabei  //进入wabei目录
+    cd hap  //进入hap目录
 
   # 进入hap console控制台
     hap console 
@@ -64,8 +64,8 @@
      ##eth.sendTransaction({from: '0x544.......', to: '0x02df.......', value: 100000000}) 
 #### 在线钱包配套挖矿使用(适用于挖矿中的电脑）
      #wallet.bitwa.org //打开这个网站
-     #pkill geth  //关闭现有挖矿进程：
-     #geth --rpc --ws --wsorigins "wallet.bitwa.org" --mine //终端执行这条命令（替代geth console)、块高，同步完成后可转账操作\自动挖矿。
+     #pkill hap  //关闭现有挖矿进程：
+     #hap --rpc --ws --wsorigins "wallet.bitwa.org" --mine //终端执行这条命令（替代hap console)、块高，同步完成后可转账操作\自动挖矿。
      #personal.unlockAccount("你的账户")  //在线钱包连接到节点并同步完成后，可使用这个命令解锁你的账户，然后利用在线钱包转账。
      
      
